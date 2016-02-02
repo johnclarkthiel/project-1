@@ -1,5 +1,5 @@
 ###Simple Black Jack
-
+[Simple Black Jack!](http://johnclarkthiel.github.io/project-1/)
 ###Tech used /stack
 1. HTML
 2. CSS
