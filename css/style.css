@@ -1,0 +1,273 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color:#FFD700;
+	animation-name: lights;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes lights {
+	0% {background: #FFD700;}
+	25% {background: snow;}
+	50% {background: #FFD700;}
+	75% {background: snow;}
+	100% {background: ,#FFD700;}
+}
+
+
+body {
+	margin-left: 2%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+h1 {
+	text-align: center;
+	color: #FF69B4;
+	width: 100%;
+	margin: 0 auto;
+	font-family: impact, Arial;
+	font-weight:bold;
+	animation-name: pinks;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	margin-top: -1%;
+}
+
+@keyframes pinks {
+	0% {color: #FF69B4;}
+	25% {color: #FF6EB4;}
+	50% {color: #EE6AA7;}
+	75% {color: #CD6090;}
+	100% {color: ,#FF69B4;}
+}
+
+
+
+/*div {
+	border: 1px solid black;
+}*/
+
+button {
+	border: 1px solid black;
+	display: block;
+	height: 15%;
+	width: 80%;
+	margin-top: 3%;
+	margin-left: 10%;
+	font-weight: bold;
+	transition: width 1s linear;
+}
+
+button:hover {
+	width: 85%;
+	height: 25%;
+	background-position-x: -5%;
+	background-color: #C0C0C0;
+	font-size: 200%;
+	font-weight: bolder;
+	border: 5px solid #FFD700;
+	color: #FFD700;
+}
+
+.sidebar {
+	background-image: url('http://media-cache-ec0.pinimg.com/originals/f9/da/90/f9da90b27250affdde4a300b4af2f767.jpg');
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 25%;
+	display: block;
+	float: left;
+	box-sizing: border-box;
+}
+
+.card-container {
+	height: 100%;
+	width: 48%;
+	display: block;
+	float: left;
+	box-sizing: border-box;
+	opacity: 0.90;
+}
+
+.card-holders {
+	height: 50%;
+	width: 100%;
+/*	border: 1px solid blue;*/
+	background: #006400;
+}
+
+.card-holders > div {
+	height: 85%;
+	width: 40%;
+	box-sizing: border-box;
+	border: 5px solid white;
+	border-radius: 10px;
+	display: block;
+	float: left;
+	margin-left: 6%;
+	margin-top: 5%;
+	margin-bottom: -0.5%;
+	font-size: 28px;
+}
+
+.Spades {
+	font-weight: bold;
+	text-align: left;
+	padding-top: 6.5%;
+	padding-left: 3%;
+	background: white;
+	background-image: url('https://image.freepik.com/free-icon/spade-symbol_318-60433.png');
+	background-repeat: no-repeat;
+	background-size: 100px;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	display: block;
+	float: left;
+	border: 2px inset blue;
+	border-radius: 10px;
+}
+
+
+.Diamonds {
+	font-weight: bold;
+	text-align: left;
+	padding-top: 6.5%;
+	padding-left: 3%;
+	background: white;
+	background-image: url('http://www.clker.com/cliparts/6/0/5/a/13340928701635070037Diamond%20Symbol.svg.med.png');
+	background-repeat: no-repeat;
+	background-size: 100px;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	display: block;
+	float: left;
+	border: 2px inset blue;
+	border-radius: 10px;
+}
+
+.Clubs {
+	font-weight: bold;
+	text-align: left;
+	padding-top: 6.5%;
+	padding-left: 3%;
+	background: white;
+	background-image: url('https://image.freepik.com/free-icon/clubs--ios-7-interface-symbol_318-34795.png');
+	background-repeat: no-repeat;
+	background-size: 100px;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	display: block;
+	float: left;
+	border: 2px inset blue;
+	border-radius: 10px;
+}
+
+
+.Hearts {
+	font-weight: bold;
+	text-align: left;
+	padding-top: 6.5%;
+	padding-left: 3%;
+	background: white;
+	background-image: url('http://www.clker.com/cliparts/8/f/f/a/119498481648610229card_figures_-_heart_01.svg.hi.png');
+	background-repeat: no-repeat;
+	background-size: 100px;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	display: block;
+	float: left;
+	border: 2px inset blue;
+	border-radius: 10px;
+	}
+
+.totals {
+	height: 19%;
+	width: 80%;
+	margin-top: 3%;
+	margin-left: 4.5%;
+	padding: 3.5%;
+	font-weight: bold;
+	background: white;
+	border: 5px groove #FFD700;
+	animation-name: breathe;
+	animation-duration: 0.25s;
+	animation-iteration-count: 1;
+}
+
+@keyframes breathe {
+	0% {border: 1px dotted snow;}
+	25% {border: 10px inset #FFD700;}
+	50% {border: 5px groove #FFD700;}
+	75% {border: 10px outset #FFD700;}
+	100% {border: 1px dashed snow;}
+}
+
+@media (max-width: 600px) {
+	h1 {
+		text-align: left;
+		font-size: 16px;
+}
+
+.Spades {
+	background-size: 50px;
+	background-position: center;
+}
+
+.Diamonds {
+	background-size: 50px;
+	background-position: center;
+}
+
+.Clubs {
+	background-size: 50px;
+	background-position: center;
+}
+
+.Hearts {
+	background-size: 50px;
+	background-position: center;
+	}
+}
+
+
+@media (max-width: 480px) {
+	button {
+	border: 1px solid black;
+	display: block;
+	float: left;
+	height: 15%;
+	width: 50%
+	margin-top: 3%;
+	margin-left: 10%;
+	font-weight: bold;
+	transition: width 1s linear;
+}
+
+
+.card-container {
+	height: 100%;
+	width: 48%;
+	display: block;
+	float: left;
+	box-sizing: border-box;
+	opacity: 0.90;
+}
+
+.card-holders {
+	height: 50%;
+	width: 100%;
+/*	border: 1px solid blue;*/
+	background: #006400;
+}
+
+
+
+
+}

@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin-left: 2%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+div {
+	border: 1px solid black;
+}
+
+button {
+	border: 1px solid black;
+	display: block;
+	height: 15%;
+	width: 80%;
+	margin-top: 3%;
+	margin-left: 10%;
+	font-weight: bold;
+}
+
+.sidebar {
+	background-image: url('http://media-cache-ec0.pinimg.com/originals/f9/da/90/f9da90b27250affdde4a300b4af2f767.jpg');
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 25%;
+	display: block;
+	float: left;
+	box-sizing: border-box;
+}
+
+.sidebar > div {
+	background: white;
+}
+
+.card-container {
+	height: 100%;
+	width: 48%;
+	display: block;
+	float: left;
+	box-sizing: border-box;
+}
+
+.card-holders {
+	height: 50%;
+	width: 100%;
+	border: 1px solid blue;
+	background: #32CD32;
+}
+
+.card-holders > div {
+	height: 80%;
+	width: 40%;
+	box-sizing: border-box;
+	border: 10px solid white;
+	border-radius: 25px;
+	display: block;
+	float: left;
+	margin-left: 6%;
+	margin-top: 8%;
+	background: #32CD32;
+	margin-bottom: -0.5%;
+	font-weight: bold;
+}
+
+#player-cards {
+	height: 80%;
+	width: 40%;
+	box-sizing: border-box;
+	border: 1px solid red;
+	display: block;
+	float: left;
+	margin-left: 5%;
+}
+
+.totals {
+	height: 20%;
+	width: 80%;
+	margin-top: 3%;
+	margin-left: 4.5%;
+	padding: 3.5%;
+	font-weight: bold;
+}
